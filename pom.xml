@@ -17,7 +17,13 @@
 
 	<name>Cytoscape Headless Distribution</name>
 
-	<build>
+	<properties>
+		<cytoscape.api.version>3.1.0-SNAPSHOT</cytoscape.api.version>
+		<cytoscape.support.version>3.1.0-SNAPSHOT</cytoscape.support.version>
+		<cytoscape.impl.version>3.1.0-SNAPSHOT</cytoscape.impl.version>
+	</properties>
+
+<build>
 		<plugins>
 			<plugin>
 				<inherited>false</inherited>
